@@ -8,7 +8,6 @@ import Tes from './tes'
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Tes />
     <MemoPage />
   </React.StrictMode>,
   document.getElementById('root')
