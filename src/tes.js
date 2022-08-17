@@ -50,7 +50,6 @@ function AlertMessage(props) {
   </div>
 }
 
-// ベース・コンポーネント
 function Tes() {
   return (
     <div>
