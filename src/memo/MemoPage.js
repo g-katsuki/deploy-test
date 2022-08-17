@@ -5,7 +5,7 @@ import FindForm from './FindForm';
 import DelForm from './DelForm';
 
 function MemoPage() {
-  const [mode, setMode] = usePersist('mode', 'default')
+  const [mode] = usePersist('mode', 'default')
 
   return (
     <div>
@@ -13,7 +13,7 @@ function MemoPage() {
       <div className="alert alert-primary pb-0">
         <AddForm />
         <FindForm />
-     
+        <DelForm />
       </div>
       <Memo />
     </div>
