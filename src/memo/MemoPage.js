@@ -13,7 +13,7 @@ function MemoPage() {
       <div className="alert alert-primary pb-0">
         <AddForm />
         <FindForm />
-        <DelForm />
+     
       </div>
       <Memo />
     </div>
