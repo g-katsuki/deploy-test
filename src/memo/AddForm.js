@@ -22,10 +22,10 @@ function AddForm (props) {
   return (
     <form onSubmit={doAction} action="">
     <div className="form-group row">
-      <input type="text" className="form-control-sm col" 
+      <input type="text" className="form-control col m-1" 
         onChange={doChange} value={message} required />
       <input type="submit" value="Add" 
-        className="btn btn-primary btn-sm col-2" />
+        className="btn btn-primary btn-sm col-2 m-1" />
     </div>
     </form>
   )

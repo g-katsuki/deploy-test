@@ -28,9 +28,9 @@ function FindForm (props) {
     <form onSubmit={doAction}>
     <div className="form-group row">
       <input type="text" onChange={doChange}
-        value={message} className="form-control-sm col" />
+        value={message} className="form-control-sm col m-1" />
       <input type="submit" value="Find" 
-        className="btn btn-primary btn-sm col-2" />
+        className="btn btn-primary btn-sm col-2 m-1" />
       </div>
     </form>
   )
